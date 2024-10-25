@@ -13,7 +13,7 @@ export const Slider: FC<{
       max={100}
       step={1}
       value={value}
-      onValueChange={(value) => setValue(value)}
+      onValueChange={setValue}
     >
       <RadixSlider.Track className="SliderTrack">
         <RadixSlider.Range className="SliderRange" />

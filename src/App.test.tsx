@@ -1,7 +1,7 @@
 import { render, fireEvent } from "@testing-library/react";
 import App from "./App.tsx";
 
-describe("Simple Slider", () => {
+describe("<App>", () => {
   it("sets a value when the slider is slid", async () => {
     const { getByRole, getByTestId } = render(<App />);
 
